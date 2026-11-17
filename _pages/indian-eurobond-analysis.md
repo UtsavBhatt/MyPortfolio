@@ -108,7 +108,7 @@ The project includes supporting visualisations and analytical calculations.
 
 ## 7. Project Deliverables
 
-- [Download the complete research report](#report-download)
+- [Download the Complete Research Report]({{ '/assets/files/Indian_Eurobond_Market_Research.pdf' | relative_url }}){: .btn .btn--primary}
 - Python visualisations: to be linked individually.
 - Supporting analysis and references: included in the research report.
 
