@@ -53,10 +53,6 @@ Aditya School of Business Management · 2025–2027
 **BSc, Computer Science**  
 University of Mumbai · 2022
 
-## Communication
-
-I also enjoy public speaking and business communication—hosting events, conducting conversations with business leaders and presenting ideas to different audiences. I’m building this portfolio to include selected recordings, event photographs and podcast or conversation links alongside the written and analytical work.
-
 ## Outside the coursework
 
 My wider interests include geopolitics, macroeconomics, history, private credit, energy, infrastructure and the use of technology in business. These interests often shape the questions I choose to explore in finance.
