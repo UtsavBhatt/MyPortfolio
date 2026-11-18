@@ -109,7 +109,7 @@ The project includes supporting visualisations and analytical calculations.
 ## 7. Project Deliverables
 
 - [Download the Complete Research Report]({{ '/assets/files/Indian_Eurobond_Market_Research.pdf' | relative_url }}){: .btn .btn--primary}
-- Python visualisations: to be linked individually.
+- Python visualisations: supporting charts are included in the report; standalone notebook links can be added as they are published.
 - Supporting analysis and references: included in the research report.
 
 ## 8. Research Scope & Limitations
@@ -122,6 +122,4 @@ The conclusions should be interpreted in the context of the data, assumptions an
 
 ## Report Download
 
-<a id="report-download"></a>
-
-The complete research report will be published here.
+The complete research report is available above as a PDF. The page summarises the scope and analytical approach; consult the report for the full research, calculations and references.
