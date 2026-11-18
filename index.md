@@ -6,61 +6,77 @@ classes: wide portfolio-home
 ---
 
 <div class="home-shell">
-  <section class="home-hero">
+  <section class="home-hero home-hero-text">
     <div class="hero-copy">
       <p class="eyebrow"><span class="eyebrow-dot"></span> FINANCE · RESEARCH · TECHNOLOGY</p>
       <h1>Curious about<br><span>how money moves.</span></h1>
-      <p class="hero-subtitle">I’m Utsav — an MBA Finance student with a Computer Science background, exploring markets, companies and the ideas connecting them.</p>
+      <p class="hero-subtitle">I’m Utsav — an MBA Finance student with a Computer Science background. I explore financial questions through research, analytical tools and clear communication.</p>
       <div class="hero-actions">
-        <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span>↗</span></a>
-        <a class="action-secondary" href="{{ '/about/' | relative_url }}">A little about me</a>
+        <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore all work <span>↗</span></a>
+        <a class="action-secondary" href="{{ '/about/' | relative_url }}">About me</a>
       </div>
-      <div class="hero-footnote"><span class="status-dot"></span> Building in public · Projects updated as I go</div>
-    </div>
-    <div class="hero-art" aria-label="Abstract illustration of financial market data">
-      <div class="art-orbit orbit-one"></div>
-      <div class="art-orbit orbit-two"></div>
-      <div class="art-core"><span>₹</span></div>
-      <div class="art-label label-top">RESEARCH<br><b>01</b></div>
-      <div class="art-label label-bottom">MARKETS<br><b>02</b></div>
-      <div class="art-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="hero-footnote"><span class="status-dot"></span> Building in public · Work updated as it develops</div>
     </div>
   </section>
 
   <section class="home-explore">
     <div class="explore-heading">
-      <div><p class="eyebrow">PICK A DIRECTION</p><h2>Explore what I do.</h2></div>
-      <span class="explore-note">Four doors into my work <span>↓</span></span>
+      <div><p class="eyebrow">EXPLORE BY CAPABILITY</p><h2>What I bring to the table.</h2></div>
+      <span class="explore-note">Every skill, backed by work <span>↓</span></span>
     </div>
-    <div class="destination-grid">
-      <a class="destination-card card-research" href="{{ '/projects/indian-eurobond-analysis/' | relative_url }}">
-        <span class="destination-index">01 / RESEARCH</span>
-        <span class="destination-symbol symbol-report"><i></i><i></i><i></i></span>
-        <span class="destination-title">Fixed Income<br>& Research</span>
-        <span class="destination-description">Eurobonds, credit markets and issuer analysis.</span>
-        <span class="destination-link">Explore research <b>↗</b></span>
-      </a>
-      <a class="destination-card card-markets" href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">
-        <span class="destination-index">02 / MARKETS & DATA</span>
-        <span class="destination-symbol symbol-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
-        <span class="destination-title">Currency Markets<br>& Data</span>
-        <span class="destination-description">USD/INR derivatives, volatility and market structure.</span>
-        <span class="destination-link">Open dataset <b>↗</b></span>
-      </a>
-      <a class="destination-card card-models" href="{{ '/projects/' | relative_url }}#models">
-        <span class="destination-index">03 / MODELLING</span>
-        <span class="destination-symbol symbol-model"><b>ƒ</b><i></i><i></i></span>
-        <span class="destination-title">Credit &<br>Financial Models</span>
-        <span class="destination-description">Credit analysis, financial statements and practical models.</span>
-        <span class="destination-link">View modelling work <b>↗</b></span>
-      </a>
-      <a class="destination-card card-voice" href="{{ '/about/' | relative_url }}#communication">
-        <span class="destination-index">04 / BEYOND THE NUMBERS</span>
-        <span class="destination-symbol symbol-voice"><i></i><i></i><i></i><i></i><i></i></span>
-        <span class="destination-title">Communication<br>& Ideas</span>
-        <span class="destination-description">Public speaking, conversations and the things I’m curious about.</span>
-        <span class="destination-link">Meet the other side <b>↗</b></span>
-      </a>
+
+    <div class="capability-grid">
+      <article class="capability-card capability-research">
+        <div class="capability-top"><span>01</span><span>INVESTIGATE · INTERPRET · EXPLAIN</span></div>
+        <h3>Research &<br>Analytics</h3>
+        <p>Turning raw information into structured analysis, useful insights and decision-ready outputs.</p>
+        <div class="capability-proof">
+          <span>PROOF OF WORK</span>
+          <a href="{{ '/projects/indian-eurobond-analysis/' | relative_url }}">Indian Eurobond research <b>↗</b></a>
+          <a href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">USD/INR data analysis <b>↗</b></a>
+          <a href="{{ '/projects/' | relative_url }}#models">Corporate credit analysis <em>In progress</em></a>
+        </div>
+        <a class="capability-more" href="{{ '/projects/' | relative_url }}">Explore research work <b>↗</b></a>
+      </article>
+
+      <article class="capability-card capability-technical">
+        <div class="capability-top"><span>02</span><span>BUILD · PROCESS · AUTOMATE</span></div>
+        <h3>Technical<br>Toolkit</h3>
+        <p>Using code and analytical tools to work with data, build models and make research reproducible.</p>
+        <div class="capability-proof">
+          <span>PROOF OF WORK</span>
+          <a href="https://www.kaggle.com/datasets/utsavbhattt/fx-currency-derivatives-data-2018-2025-usd-inr" target="_blank" rel="noopener">USD/INR dataset on Kaggle <b>↗</b></a>
+          <a href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">Options data processing <b>↗</b></a>
+          <a href="{{ '/projects/' | relative_url }}#models">Financial modelling & Python <em>In progress</em></a>
+        </div>
+        <a class="capability-more" href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">Explore technical work <b>↗</b></a>
+      </article>
+
+      <article class="capability-card capability-concepts">
+        <div class="capability-top"><span>03</span><span>UNDERSTAND · APPLY · CONNECT</span></div>
+        <h3>Finance &<br>Concepts</h3>
+        <p>Understanding the instruments, market mechanics and financial principles behind the numbers.</p>
+        <div class="capability-proof">
+          <span>PROOF OF WORK</span>
+          <a href="{{ '/projects/indian-eurobond-analysis/' | relative_url }}">Bond markets & Eurobonds <b>↗</b></a>
+          <a href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">FX, futures & options <b>↗</b></a>
+          <a href="{{ '/projects/' | relative_url }}#models">Credit risk & financial statements <em>In progress</em></a>
+        </div>
+        <a class="capability-more" href="{{ '/projects/' | relative_url }}">Explore finance work <b>↗</b></a>
+      </article>
+
+      <article class="capability-card capability-communication">
+        <div class="capability-top"><span>04</span><span>COMMUNICATE · PRESENT · CONNECT</span></div>
+        <h3>Communication<br>& People Skills</h3>
+        <p>Making ideas accessible through public speaking, presentations, hosting and conversations.</p>
+        <div class="capability-proof">
+          <span>PROOF OF WORK</span>
+          <a href="{{ '/projects/communication/' | relative_url }}">Public speaking & hosting <b>↗</b></a>
+          <a href="{{ '/projects/communication/' | relative_url }}">Conversations & media <b>↗</b></a>
+          <a href="{{ '/projects/communication/' | relative_url }}">Selected appearances <em>Being added</em></a>
+        </div>
+        <a class="capability-more" href="{{ '/projects/communication/' | relative_url }}">Explore communication work <b>↗</b></a>
+      </article>
     </div>
   </section>
 
