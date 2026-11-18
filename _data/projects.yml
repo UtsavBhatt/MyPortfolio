@@ -19,6 +19,8 @@
   summary: "A historical dataset covering USD/INR spot, futures and options from 2018 to 2025, with processed measures for implied volatility, option delta, tenor buckets and forward points."
   detail: "/projects/usd-inr-currency-derivatives/"
   deliverables:
+    - label: "View dataset on Kaggle"
+      url: "https://www.kaggle.com/datasets/utsavbhattt/fx-currency-derivatives-data-2018-2025-usd-inr"
     - label: "Project methodology"
       url: "/projects/usd-inr-currency-derivatives/"
   methods: "Options data processing · Implied volatility · Delta · Risk reversals · Forward points"
