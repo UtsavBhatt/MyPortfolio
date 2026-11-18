@@ -33,4 +33,6 @@ It also provides a foundation for further work on risk reversals as macro indica
 
 The dataset is historical and analytical. Derived fields depend on the calculation conventions and data quality of the underlying source files. Any use for trading, valuation or risk decisions requires independent validation of inputs, conventions and calculations.
 
-**Published dataset:** the Kaggle dataset link and notebook links will be added to this page once the canonical public URLs are attached.
+**Published dataset:** [Access the USD/INR Currency Derivatives dataset on Kaggle](https://www.kaggle.com/datasets/utsavbhattt/fx-currency-derivatives-data-2018-2025-usd-inr).
+
+Supporting notebooks, visualisations and further analysis will be added as they are completed.
