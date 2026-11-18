@@ -2,120 +2,55 @@
 layout: single
 permalink: /
 author_profile: false
-classes: wide
+classes: wide portfolio-home
 ---
 
-# Utsav Bhatt
+<section class="portfolio-intro">
+  <p class="eyebrow">FINANCE · RESEARCH · ANALYTICS</p>
+  <h1>Utsav Bhatt</h1>
+  <p class="intro-lede">I work on financial questions by combining business understanding, quantitative analysis and technology.</p>
+  <p class="intro-copy">I’m an MBA Finance student with a Computer Science background. My current work focuses on fixed income, corporate credit, currency derivatives and financial modelling. I’m interested in how markets, companies and capital structures behave under changing economic conditions.</p>
+  <div class="intro-links">
+    <a class="text-link" href="{{ '/projects/' | relative_url }}">Explore selected work <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ '/about/' | relative_url }}">About me <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="https://www.linkedin.com/in/utsav-bhatt1/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
 
-### Finance | Business | Technology
+<section class="portfolio-section" id="selected-work">
+  <div class="section-heading">
+    <div><p class="eyebrow">01 / SELECTED WORK</p><h2>Research and applied projects</h2></div>
+    <a class="text-link" href="{{ '/projects/' | relative_url }}">All projects ↗</a>
+  </div>
+  <div class="project-list">
+    {% assign featured_projects = site.data.projects | where: "featured", true %}
+    {% for project in featured_projects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
 
-**An analytical approach to business and financial problems.**
+<section class="portfolio-section portfolio-two-col">
+  <div>
+    <p class="eyebrow">02 / HOW I WORK</p>
+    <h2>Analysis that can be inspected.</h2>
+  </div>
+  <div>
+    <p>I prefer work that makes its reasoning visible: the question being answered, the data and assumptions used, the analytical method, and the limitations of the result. Where possible, I publish the underlying report, notebook, dataset or spreadsheet alongside the conclusions.</p>
+    <a class="text-link" href="{{ '/projects/' | relative_url }}">Browse reports, data and models ↗</a>
+  </div>
+</section>
 
-I am an MBA Finance student with an undergraduate background in Computer Science. My interests and experience lie at the intersection of finance, business analysis and technology.
+<section class="portfolio-section communication-section" id="communication">
+  <p class="eyebrow">03 / COMMUNICATION</p>
+  <h2>Research is only useful when it can be explained.</h2>
+  <p>Alongside analytical work, I take part in public speaking, hosting and conversations around business and ideas. This section brings those activities into the same portfolio as my research and models; recordings and event features will be linked here as they are published.</p>
+  <a class="text-link" href="{{ '/about/' | relative_url }}#communication">More about my communication work ↗</a>
+</section>
 
-I enjoy working on problems that require understanding the business context, analysing information, building financial or technical solutions, and translating findings into practical decisions.
-
-[Explore My Work](#areas-of-work){: .btn .btn--primary}
-[Connect on LinkedIn](https://www.linkedin.com/in/utsav-bhatt1/){: .btn .btn--inverse}
-
----
-
-## Areas of Work
-
-My capabilities span three complementary areas.
-
-### 01. Finance & Financial Analysis
-
-An applied understanding of corporate finance, financial management and capital markets, supported by case-based learning and financial modelling.
-
-- Financial statement analysis
-- Three-statement financial modelling
-- Business valuation and capital budgeting
-- Corporate finance and M&A
-- Fixed income and credit analysis
-- Financial derivatives and currency markets
-
-### 02. Business Analytics & Decision Support
-
-Experience using data to understand business performance, evaluate commercial decisions and identify opportunities for improvement.
-
-- Revenue and profitability analysis
-- Forecasting and seasonality analysis
-- Business performance measurement
-- Data interpretation and visual analytics
-- Dashboard development
-- SQL-based data analysis
-
-### 03. Technology & Analytical Tools
-
-A Computer Science foundation combined with practical exposure to data processing, machine learning and business automation.
-
-- Python and its analytical ecosystem
-- SQL and data management
-- Machine learning and NLP fundamentals
-- AI workflows and process automation
-- Excel and financial modelling
-- Tableau and SAP Analytics
-
----
-
-## Professional Experience
-
-### Consulting Intern | Sacom Innovations Pvt. Ltd.
-
-*May – July 2026*
-
-Worked on internal AI workflow and operational automation initiatives. Also contributed to assignments involving public policy implementation, direct-benefit-transfer strategies and foreign investor exit pathway analysis.
-
-### Member, Founding Team | Prism Paradox
-
-*May 2024 – Present*
-
-Exposure to startup operations, people management, trade credit, taxation and startup valuation through involvement in an early-stage venture.
-
-### Business Analytics Associate | MiStay
-
-*April – October 2023*
-
-Analysed booking trends, seasonality, revenue and competitor information to support pricing, discounting and partner commission decisions. Contributed to initiatives reporting a marginal benefit of ₹40–₹70 per booking.
-
-### Machine Learning Intern | I.A.M.Plus Electronics, Singapore
-
-*July – December 2022 | Remote*
-
-Worked with large datasets, data processing and analytical libraries. Contributed to an NLP-based intent classification project.
-
----
-
-## Education & Recognition
-
-**MBA (PGDM) – Finance**
-
-Aditya School of Business Management | 2025–2027
-
-**BSc – Computer Science**
-
-University of Mumbai | 2022
-
-**Recognition**
-
-- Best Research Paper Award for research on FX Risk.
-- First Runner-up, intra-college hackathon for developing a parking-finding web application using React.js.
-
----
-
-## Beyond Work
-
-I am interested in geopolitics, private credit, capital markets, economic developments, history and debate.
-
-I also enjoy public speaking and business communication, including hosting events, conducting conversations with business leaders and presenting ideas to different audiences.
-
----
-
-## Let's Connect
-
-I am interested in opportunities where financial understanding, analytical thinking and technical capabilities can contribute to meaningful business outcomes.
-
-[LinkedIn](https://www.linkedin.com/in/utsav-bhatt1/){: .btn .btn--primary}
-
-[GitHub](https://github.com/UtsavBhatt){: .btn .btn--inverse}
+<section class="portfolio-contact">
+  <p class="eyebrow">IN TOUCH</p>
+  <h2>For research, finance and analytical roles.</h2>
+  <p>For opportunities or a discussion about any of the work published here.</p>
+  <a class="text-link" href="mailto:utsavbhattt@gmail.com">utsavbhattt@gmail.com ↗</a>
+</section>

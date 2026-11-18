@@ -1,0 +1,20 @@
+{% assign item = include.project %}
+<article class="project-card">
+  <div class="project-meta">
+    <span>{{ item.category }}</span>
+    <span class="project-status{% if item.status == 'In progress' %} is-progress{% endif %}">{{ item.status }}</span>
+  </div>
+  <h3><a href="{{ item.detail | relative_url }}">{{ item.title }}</a></h3>
+  <p>{{ item.summary }}</p>
+  {% if item.methods %}<p class="project-methods"><strong>Focus:</strong> {{ item.methods }}</p>{% endif %}
+  {% if item.tools %}<p class="project-methods"><strong>Tools:</strong> {{ item.tools }}</p>{% endif %}
+  {% if item.deliverables %}
+    <div class="project-links">
+      {% for deliverable in item.deliverables %}
+        <a class="text-link" href="{{ deliverable.url | relative_url }}">{{ deliverable.label }} ↗</a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <a class="text-link" href="{{ item.detail | relative_url }}">Project details ↗</a>
+  {% endif %}
+</article>
