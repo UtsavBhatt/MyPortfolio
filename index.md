@@ -5,52 +5,71 @@ author_profile: false
 classes: wide portfolio-home
 ---
 
-<section class="portfolio-intro">
-  <p class="eyebrow">FINANCE · RESEARCH · ANALYTICS</p>
-  <h1>Utsav Bhatt</h1>
-  <p class="intro-lede">I work on financial questions by combining business understanding, quantitative analysis and technology.</p>
-  <p class="intro-copy">I’m an MBA Finance student with a Computer Science background. My current work focuses on fixed income, corporate credit, currency derivatives and financial modelling. I’m interested in how markets, companies and capital structures behave under changing economic conditions.</p>
-  <div class="intro-links">
-    <a class="text-link" href="{{ '/projects/' | relative_url }}">Explore selected work <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="{{ '/about/' | relative_url }}">About me <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="https://www.linkedin.com/in/utsav-bhatt1/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
-  </div>
-</section>
+<div class="home-shell">
+  <section class="home-hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> FINANCE · RESEARCH · TECHNOLOGY</p>
+      <h1>Curious about<br><span>how money moves.</span></h1>
+      <p class="hero-subtitle">I’m Utsav — an MBA Finance student with a Computer Science background, exploring markets, companies and the ideas connecting them.</p>
+      <div class="hero-actions">
+        <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span>↗</span></a>
+        <a class="action-secondary" href="{{ '/about/' | relative_url }}">A little about me</a>
+      </div>
+      <div class="hero-footnote"><span class="status-dot"></span> Building in public · Projects updated as I go</div>
+    </div>
+    <div class="hero-art" aria-label="Abstract illustration of financial market data">
+      <div class="art-orbit orbit-one"></div>
+      <div class="art-orbit orbit-two"></div>
+      <div class="art-core"><span>₹</span></div>
+      <div class="art-label label-top">RESEARCH<br><b>01</b></div>
+      <div class="art-label label-bottom">MARKETS<br><b>02</b></div>
+      <div class="art-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
 
-<section class="portfolio-section" id="selected-work">
-  <div class="section-heading">
-    <div><p class="eyebrow">01 / SELECTED WORK</p><h2>Research and applied projects</h2></div>
-    <a class="text-link" href="{{ '/projects/' | relative_url }}">All projects ↗</a>
-  </div>
-  <div class="project-list">
-    {% assign featured_projects = site.data.projects | where: "featured", true %}
-    {% for project in featured_projects %}
-      {% include project-card.html project=project %}
-    {% endfor %}
-  </div>
-</section>
+  <section class="home-explore">
+    <div class="explore-heading">
+      <div><p class="eyebrow">PICK A DIRECTION</p><h2>Explore what I do.</h2></div>
+      <span class="explore-note">Four doors into my work <span>↓</span></span>
+    </div>
+    <div class="destination-grid">
+      <a class="destination-card card-research" href="{{ '/projects/indian-eurobond-analysis/' | relative_url }}">
+        <span class="destination-index">01 / RESEARCH</span>
+        <span class="destination-symbol symbol-report"><i></i><i></i><i></i></span>
+        <span class="destination-title">Fixed Income<br>& Research</span>
+        <span class="destination-description">Eurobonds, credit markets and issuer analysis.</span>
+        <span class="destination-link">Explore research <b>↗</b></span>
+      </a>
+      <a class="destination-card card-markets" href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">
+        <span class="destination-index">02 / MARKETS & DATA</span>
+        <span class="destination-symbol symbol-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+        <span class="destination-title">Currency Markets<br>& Data</span>
+        <span class="destination-description">USD/INR derivatives, volatility and market structure.</span>
+        <span class="destination-link">Open dataset <b>↗</b></span>
+      </a>
+      <a class="destination-card card-models" href="{{ '/projects/' | relative_url }}#models">
+        <span class="destination-index">03 / MODELLING</span>
+        <span class="destination-symbol symbol-model"><b>ƒ</b><i></i><i></i></span>
+        <span class="destination-title">Credit &<br>Financial Models</span>
+        <span class="destination-description">Credit analysis, financial statements and practical models.</span>
+        <span class="destination-link">View modelling work <b>↗</b></span>
+      </a>
+      <a class="destination-card card-voice" href="{{ '/about/' | relative_url }}#communication">
+        <span class="destination-index">04 / BEYOND THE NUMBERS</span>
+        <span class="destination-symbol symbol-voice"><i></i><i></i><i></i><i></i><i></i></span>
+        <span class="destination-title">Communication<br>& Ideas</span>
+        <span class="destination-description">Public speaking, conversations and the things I’m curious about.</span>
+        <span class="destination-link">Meet the other side <b>↗</b></span>
+      </a>
+    </div>
+  </section>
 
-<section class="portfolio-section portfolio-two-col">
-  <div>
-    <p class="eyebrow">02 / HOW I WORK</p>
-    <h2>Analysis that can be inspected.</h2>
-  </div>
-  <div>
-    <p>I prefer work that makes its reasoning visible: the question being answered, the data and assumptions used, the analytical method, and the limitations of the result. Where possible, I publish the underlying report, notebook, dataset or spreadsheet alongside the conclusions.</p>
-    <a class="text-link" href="{{ '/projects/' | relative_url }}">Browse reports, data and models ↗</a>
-  </div>
-</section>
-
-<section class="portfolio-section communication-section" id="communication">
-  <p class="eyebrow">03 / COMMUNICATION</p>
-  <h2>Research is only useful when it can be explained.</h2>
-  <p>Alongside analytical work, I take part in public speaking, hosting and conversations around business and ideas. This section brings those activities into the same portfolio as my research and models; recordings and event features will be linked here as they are published.</p>
-  <a class="text-link" href="{{ '/about/' | relative_url }}#communication">More about my communication work ↗</a>
-</section>
-
-<section class="portfolio-contact">
-  <p class="eyebrow">IN TOUCH</p>
-  <h2>For research, finance and analytical roles.</h2>
-  <p>For opportunities or a discussion about any of the work published here.</p>
-  <a class="text-link" href="mailto:utsavbhattt@gmail.com">utsavbhattt@gmail.com ↗</a>
-</section>
+  <footer class="home-bottom">
+    <div><span class="eyebrow">LET’S CONNECT</span><p>Have a question about a project or an opportunity to discuss?</p></div>
+    <div class="bottom-links">
+      <a href="mailto:utsavbhattt@gmail.com">Email ↗</a>
+      <a href="https://www.linkedin.com/in/utsav-bhatt1/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/UtsavBhatt" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </footer>
+</div>
