@@ -10,18 +10,12 @@ classes: wide portfolio-page project-detail
 
 # Influx Healthtech — Investment Thesis
 
-<span class="work-state state-progress">ACADEMIC INVESTMENT PITCH</span>
+Business and industry analysis covering operating performance, margin expansion, peer positioning and growth drivers. Academic investment pitch; not a current recommendation.
 
-## Coverage
+![Operating margin expansion]({{ '/assets/images/projects/influx-margin-trend.jpg' | relative_url }})
 
-Business model · Industry structure · Financial performance · Margin expansion · Peer positioning · Growth drivers · Valuation.
+![Competitive positioning map]({{ '/assets/images/projects/influx-competitive-map.jpg' | relative_url }})
 
-## Selected analysis
-
-The pitch includes FY23–H1 FY26 margin trends and a peer-positioning comparison using FY25 revenue scale and EBITDA margins.
-
-## Scope
-
-Historical analysis dated 21 April 2026. Student investment exercise, not a current recommendation. Selected peer and valuation figures require reconciliation against primary disclosures.
+**Scope:** Historical analysis dated 21 April 2026.
 
 [All projects]({{ '/projects/' | relative_url }})
