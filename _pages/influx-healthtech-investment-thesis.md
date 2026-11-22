@@ -10,12 +10,8 @@ classes: wide portfolio-page project-detail
 
 # Influx Healthtech — Investment Thesis
 
-Business and industry analysis covering operating performance, margin expansion, peer positioning and growth drivers. Academic investment pitch; not a current recommendation.
+Academic investment pitch covering the healthcare CDMO business model, financial performance, margin expansion, peer positioning and growth drivers.
 
-![Operating margin expansion]({{ '/assets/images/projects/influx-margin-trend.jpg' | relative_url }})
-
-![Competitive positioning map]({{ '/assets/images/projects/influx-competitive-map.jpg' | relative_url }})
-
-**Scope:** Historical analysis dated 21 April 2026.
+**Scope:** Historical analysis dated 21 April 2026. Not a current investment recommendation.
 
 [All projects]({{ '/projects/' | relative_url }})
