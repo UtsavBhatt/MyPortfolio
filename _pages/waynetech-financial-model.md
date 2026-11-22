@@ -10,18 +10,12 @@ classes: wide portfolio-page project-detail
 
 # WayneTech — Transactions to Financial Statements
 
-<span class="work-state state-live">COMPLETED MODEL EXERCISE</span>
+Synthetic-company model linking raw transactions and processed accounting data to historical statements (FY24–FY26) and forecasts (FY27–FY29).
 
-## Workflow
+![Forecast income statement]({{ '/assets/images/projects/wayne-forecast-income.jpg' | relative_url }})
 
-Raw transactions → Processed accounting data → Historical statements (FY24–FY26) → Forecast statements (FY27–FY29).
+![Cash flow statement]({{ '/assets/images/projects/wayne-cashflow.jpg' | relative_url }})
 
-## Model components
-
-Income statement · Balance sheet · Cash flow statement · Working-capital drivers · Capex and depreciation · Debt and equity movements · Balance checks.
-
-## Scope
-
-WayneTech is a synthetic company created for modelling practice. Forecasts depend on user-entered assumptions; depreciation and selected forecast drivers need further review.
+**Model components:** Income statement · Balance sheet · Cash flow · Working capital · Capex and depreciation · Debt and equity movements.
 
 [All projects]({{ '/projects/' | relative_url }})
