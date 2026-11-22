@@ -12,10 +12,6 @@ classes: wide portfolio-page project-detail
 
 Synthetic-company model linking raw transactions and processed accounting data to historical statements (FY24–FY26) and forecasts (FY27–FY29).
 
-![Forecast income statement]({{ '/assets/images/projects/wayne-forecast-income.jpg' | relative_url }})
-
-![Cash flow statement]({{ '/assets/images/projects/wayne-cashflow.jpg' | relative_url }})
-
 **Model components:** Income statement · Balance sheet · Cash flow · Working capital · Capex and depreciation · Debt and equity movements.
 
 [All projects]({{ '/projects/' | relative_url }})
