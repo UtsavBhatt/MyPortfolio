@@ -9,7 +9,7 @@ classes: wide portfolio-page work-hub
 <div class="work-intro">
   <p class="eyebrow">SELECTED WORK · RESEARCH · MODELS</p>
   <h1>Work, in progress.</h1>
-  <p>A collection of finance research, market analysis, quantitative tools and financial models. Each project page explains the question, the work performed and the evidence available.</p>
+  <p>Research, quantitative analysis and financial models.</p>
 </div>
 
 <nav class="work-jump-grid" aria-label="Explore work categories">
@@ -24,9 +24,9 @@ classes: wide portfolio-page work-hub
   <a class="project-card project-card-warm" href="{{ '/projects/indian-eurobond-analysis/' | relative_url }}">
     <div class="project-card-meta"><span>FIXED INCOME · CORPORATE DEBT</span><span class="work-state state-live">RESEARCH REPORT</span></div>
     <h3>Indian Eurobond Market Research</h3>
-    <p>International debt markets, bond valuation, credit spreads, currency risk and an applied case study of Reliance Industries’ January 2022 US-dollar issuance.</p>
-    <div class="project-tags"><span>Bond valuation</span><span>Duration</span><span>Credit spreads</span><span>FX risk</span><span>Python</span></div>
-    <span class="project-card-link">View research and visualisations ↗</span>
+    <p>Eurobond pricing, credit spreads, duration and FX risk; applied to Reliance Industries’ 2022 USD issuance.</p>
+    <div class="project-tags"><span>Bond valuation</span><span>Duration</span><span>Credit spreads</span><span>FX risk</span></div>
+    <span class="project-card-link">Read report & view charts ↗</span>
   </a>
 </section>
 
@@ -36,16 +36,16 @@ classes: wide portfolio-page work-hub
     <a class="project-card project-card-blue" href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">
       <div class="project-card-meta"><span>DATASET · 2018–2025</span><span class="work-state state-live">ON KAGGLE</span></div>
       <h3>USD/INR Currency Derivatives Dataset</h3>
-      <p>Historical spot, futures and options data with derived implied volatility, delta, tenor buckets and forward points.</p>
+      <p>Historical spot, futures and options data with derived IV, delta, tenor buckets and forward points.</p>
       <div class="project-tags"><span>1.7M+ options rows</span><span>Python</span><span>Data engineering</span></div>
       <span class="project-card-link">Explore dataset ↗</span>
     </a>
     <a class="project-card project-card-purple" href="{{ '/projects/fx-risk-reversals-research/' | relative_url }}">
       <div class="project-card-meta"><span>ACADEMIC RESEARCH · USD/INR</span><span class="work-state state-progress">RESEARCH PAPER</span></div>
-      <h3>FX Options as Early Indicators of Macroeconomic Risk</h3>
-      <p>A study of USD/INR risk reversals, event windows and the possible lead–lag relationship between options skew and spot returns.</p>
+      <h3>FX Options as Macro Risk Indicators</h3>
+      <p>Testing whether USD/INR risk reversals contain information about subsequent spot-market stress.</p>
       <div class="project-tags"><span>Risk reversals</span><span>Event study</span><span>Granger causality</span></div>
-      <span class="project-card-link">Read the research overview ↗</span>
+      <span class="project-card-link">View research ↗</span>
     </a>
   </div>
 </section>
@@ -55,15 +55,15 @@ classes: wide portfolio-page work-hub
   <div class="project-card-grid">
     <a class="project-card project-card-blue" href="{{ '/projects/nifty50-quantitative-analysis/' | relative_url }}">
       <div class="project-card-meta"><span>PYTHON · PORTFOLIO ANALYTICS</span><span class="work-state state-live">NOTEBOOK</span></div>
-      <h3>Nifty 50 Quantitative Analysis & Portfolio Theory</h3>
-      <p>Exploratory analysis, risk-adjusted performance, beta, VaR, an interactive stock dashboard, Monte Carlo paths and portfolio stress testing.</p>
-      <div class="project-tags"><span>Python</span><span>Plotly</span><span>Portfolio theory</span><span>Monte Carlo</span></div>
-      <span class="project-card-link">Open notebook and analysis ↗</span>
+      <h3>Nifty 50 Quantitative Analysis</h3>
+      <p>Stock performance, risk metrics, interactive dashboard, Monte Carlo simulation and portfolio VaR.</p>
+      <div class="project-tags"><span>Python</span><span>Plotly</span><span>Portfolio theory</span></div>
+      <span class="project-card-link">Open notebook & charts ↗</span>
     </a>
     <a class="project-card project-card-warm" href="{{ '/projects/influx-healthtech-investment-thesis/' | relative_url }}">
       <div class="project-card-meta"><span>COMPANY RESEARCH · MICRO-CAP</span><span class="work-state state-progress">INVESTMENT PITCH</span></div>
       <h3>Influx Healthtech — Investment Thesis</h3>
-      <p>A company and industry review covering the CDMO business model, operating margins, competitive positioning, capacity expansion and valuation.</p>
+      <p>Healthcare CDMO business analysis, operating margins, peer positioning and growth drivers.</p>
       <div class="project-tags"><span>Equity research</span><span>Financial analysis</span><span>Valuation</span></div>
       <span class="project-card-link">View investment thesis ↗</span>
     </a>
@@ -75,17 +75,17 @@ classes: wide portfolio-page work-hub
   <div class="project-card-grid">
     <a class="project-card project-card-purple" href="{{ '/projects/nexforge-financial-model/' | relative_url }}">
       <div class="project-card-meta"><span>MODEL TEST · MANUFACTURING</span><span class="work-state state-live">MODEL EXERCISE</span></div>
-      <h3>NexForge Manufacturing — Three-Statement Model & DCF</h3>
-      <p>Historical analysis, forecast assumptions, integrated financial statements, free cash flow build and discounted cash flow valuation.</p>
+      <h3>NexForge — Three-Statement Model & DCF</h3>
+      <p>Historical analysis, integrated forecasts, free cash flow build and DCF valuation.</p>
       <div class="project-tags"><span>Three statements</span><span>DCF</span><span>Excel</span></div>
-      <span class="project-card-link">Inspect model approach ↗</span>
+      <span class="project-card-link">Inspect model ↗</span>
     </a>
     <a class="project-card project-card-green" href="{{ '/projects/waynetech-financial-model/' | relative_url }}">
       <div class="project-card-meta"><span>SYNTHETIC COMPANY · MODELLING</span><span class="work-state state-live">MODEL EXERCISE</span></div>
-      <h3>WayneTech — Transactions to Financial Statements</h3>
-      <p>A transaction-led accounting workflow: raw entries, processed categories, historical statements and forecast financials.</p>
-      <div class="project-tags"><span>Accounting</span><span>Financial statements</span><span>Forecasting</span></div>
-      <span class="project-card-link">Inspect modelling workflow ↗</span>
+      <h3>WayneTech — Financial Statements</h3>
+      <p>Raw transactions, processed accounting data, historical statements and forecast financials.</p>
+      <div class="project-tags"><span>Accounting</span><span>Forecasting</span><span>Excel</span></div>
+      <span class="project-card-link">Inspect model ↗</span>
     </a>
   </div>
 </section>
@@ -95,16 +95,16 @@ classes: wide portfolio-page work-hub
   <a class="project-card project-card-blue" href="{{ '/projects/equity-derivatives-ledger/' | relative_url }}">
     <div class="project-card-meta"><span>COURSEWORK · F&O LEDGERS</span><span class="work-state state-live">COMPLETED ASSIGNMENT</span></div>
     <h3>Equity Derivatives Ledger</h3>
-    <p>Long and short option ledgers, futures mark-to-market tracking, contract-level calculations and margin balances across selected equities.</p>
-    <div class="project-tags"><span>Options</span><span>Futures</span><span>MTM</span><span>Margin</span><span>Excel</span></div>
-    <span class="project-card-link">View assignment overview ↗</span>
+    <p>Options payoffs, futures mark-to-market, contract-level P&L and margin tracking.</p>
+    <div class="project-tags"><span>Options</span><span>Futures</span><span>MTM</span><span>Excel</span></div>
+    <span class="project-card-link">View assignment ↗</span>
   </a>
 </section>
 
 <section class="work-section work-communication">
   <div class="work-section-heading"><span>06</span><h2>Communication & public speaking</h2></div>
   <a class="communication-tile" href="{{ '/projects/communication/' | relative_url }}">
-    <div><span class="work-mini-number">BEYOND THE SPREADSHEET</span><h3>Ideas are meant to be shared.</h3><p>Public speaking, hosting, conversations and selected media.</p></div>
-    <span class="communication-cta">Explore communication work <b>↗</b></span>
+    <div><span class="work-mini-number">BEYOND THE SPREADSHEET</span><h3>Communication & public speaking</h3><p>Selected speaking, hosting and media work.</p></div>
+    <span class="communication-cta">Explore <b>↗</b></span>
   </a>
 </section>
