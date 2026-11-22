@@ -13,5 +13,6 @@ classes: wide portfolio-page project-detail
 Integrated historical statements (2022–2024), forecast assumptions (2025–2027), unlevered free cash flow and DCF valuation.
 
 **Model output:** Enterprise value US$879m · Equity value US$840m · Implied value US$42/share. Cash-flow reconciliation and terminal-value sensitivity require further review.
+<img width="1047" height="383" alt="image" src="https://github.com/user-attachments/assets/1e3220d3-9544-4e3c-92f1-51228bf044d4" />
 
 [All projects]({{ '/projects/' | relative_url }})
