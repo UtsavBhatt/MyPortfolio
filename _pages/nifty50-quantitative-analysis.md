@@ -11,8 +11,9 @@ classes: wide portfolio-page project-detail
 # Nifty 50 Analysis 
 
 Historical stock performance, risk and correlation metrics, an interactive dashboard, Monte Carlo simulation and portfolio value-at-risk.
-Ratios for top-pick stocks & Annualized 21 day rolling volatility of Nifty-50
-<img width="943" height="697" alt="image" src="https://github.com/user-attachments/assets/84516ce7-6fe7-48e8-97a8-e6357d27d613" />
+Ratios for top-pick stocks &  Nifty-50
+<img width="1734" height="517" alt="image" src="https://github.com/user-attachments/assets/f25dff02-caee-4d33-b4aa-ccba3ed3aa77" />
+
 
 <div class="project-action-row">
   <a class="work-button work-button-dark" href="{{ 'assets/files/UtsavBhatt-Nifty50_Analysis.xlsx'}}">Download full Excel File ↗</a>
