@@ -10,7 +10,11 @@ classes: wide portfolio-page project-detail
 
 # WayneTech — Transactions to Financial Statements
 
-A synthetic-company modelling exercise focused on the accounting workflow: transforming a raw transaction ledger into classified, processed data and financial statements. The documented workbook covers historical statements (FY24–FY26) and forecast years (FY27–FY29).
+A synthetic-company modelling exercise focused on the accounting workflow: transforming a raw transaction ledger into classified, processed data and financial statements. The workbook covers historical statements (FY24–FY26) and forecast years (FY27–FY29).
+
+<div class="project-action-row">
+  <a class="work-button work-button-dark" href="{{ '/assets/files/Financial%20Case%20Study%20-%20WayneTech.xlsx' | relative_url }}">Download WayneTech Excel workbook ↗</a>
+</div>
 
 ## What the exercise demonstrates
 
@@ -40,6 +44,6 @@ The model output is organised into the three primary financial statements.
 <img width="727" height="412" loading="lazy" alt="WayneTech financial statement view" src="https://github.com/user-attachments/assets/e659e693-4cd2-4813-aff7-a5418f4fdfee" />
 <img width="727" height="437" loading="lazy" alt="WayneTech financial statement view" src="https://github.com/user-attachments/assets/c34eca4b-b9a5-46ba-8a5f-fd4696b81296" />
 
-**Disclosure:** The repository currently contains the project screenshots, but not a standalone WayneTech workbook download. The page therefore documents the workflow and visible outputs without implying that the underlying workbook is available to download.
+The downloadable workbook contains the underlying transaction and financial-statement work. The screenshots below provide a quick visual walkthrough.
 
 [Back to selected work]({{ '/projects/' | relative_url }})
