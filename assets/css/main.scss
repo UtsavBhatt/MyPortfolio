@@ -327,3 +327,35 @@ body { background: var(--paper); color: var(--ink); }
 .communication-gallery figcaption strong{font-size:.88rem;color:var(--ink)}
 .communication-gallery figcaption span{font-size:.75rem;color:var(--muted)}
 @media(max-width:650px){.communication-gallery{grid-template-columns:1fr}.communication-gallery img{height:auto;max-height:360px}}
+
+/* Corrected four-pillar landing page */
+.portfolio-home .home-hero{display:block;grid-template-columns:none;max-width:100%;padding:clamp(2.4rem,5vw,4.2rem) 0 1.4rem}
+.portfolio-home .hero-copy{max-width:920px}
+.portfolio-home .hero-copy h1{font-size:clamp(3rem,6.2vw,5.35rem);line-height:.99;max-width:850px}
+.portfolio-home .hero-copy h1 span{color:var(--green)}
+.portfolio-home .hero-subtitle{max-width:760px}
+.portfolio-home .home-explore{padding:1rem 0 3.2rem}
+.portfolio-home .explore-heading{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:1.2rem}
+.portfolio-home .explore-heading h2{font-size:clamp(1.8rem,3vw,2.45rem);margin:0}
+.portfolio-home .explore-note{font-size:.74rem;color:var(--muted);font-weight:700}
+.capability-link{display:flex;text-decoration:none!important}
+.capability-link:hover{color:#fff!important}
+.capability-link .capability-more{width:100%;margin-top:auto}
+.capability-card{min-height:300px}
+.capability-card>p{margin-bottom:1.1rem}
+.capability-link:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+.work-section[id]{scroll-margin-top:95px}
+.concise-about .page__content{max-width:900px}
+.concise-about .page__content>h1{font-size:clamp(2.4rem,5vw,3.6rem);margin-bottom:1rem}
+.concise-about .page__content h2{font-size:1.25rem;margin-top:1.7rem}
+.concise-about .page__content p,.concise-about .page__content li{font-size:.9rem;line-height:1.65}
+.concise-about .page__content p{margin-bottom:.8rem}
+.concise-about .page__content strong{color:var(--ink)}
+.author__avatar{width:190px;max-width:100%;margin-bottom:1rem}
+.author__avatar img{width:190px;max-width:100%;height:auto;border-radius:12px;object-fit:cover}
+.author__content{max-width:260px}
+@media(max-width:700px){
+ .portfolio-home .explore-heading{align-items:flex-start;flex-direction:column}
+ .capability-card{min-height:260px}
+ .author__avatar,.author__avatar img{width:150px}
+}
