@@ -19,4 +19,6 @@ Coursework workbook covering long and short option positions, futures mark-to-ma
 
 **Concepts:** Option payoffs · Futures settlement · Premium and intrinsic value · Initial and maintenance margin.
 
+**File availability:** The public repository currently contains the assignment screenshots, but not the original Excel ledger. This page therefore documents the exercise rather than offering a workbook download.
+
 [All projects]({{ '/projects/' | relative_url }})
