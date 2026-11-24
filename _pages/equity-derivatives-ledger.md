@@ -10,7 +10,11 @@ classes: wide portfolio-page project-detail
 
 # Equity Derivatives Ledger
 
-Coursework workbook covering long and short option positions, futures mark-to-market, contract-level P&L and margin tracking.
+Coursework workbook covering long and short option positions, futures mark-to-market, contract-level P&amp;L and margin tracking.
+
+<div class="project-action-row">
+  <a class="work-button work-button-dark" href="{{ '/assets/files/01_UtsavBhatt_Ledger.xlsx' | relative_url }}">Download equity derivatives ledger ↗</a>
+</div>
 
 <img width="1078" height="805" alt="image" src="https://github.com/user-attachments/assets/9ed2ac8c-73f6-4e11-bf6d-76d7d959afcb" />
 
@@ -19,6 +23,6 @@ Coursework workbook covering long and short option positions, futures mark-to-ma
 
 **Concepts:** Option payoffs · Futures settlement · Premium and intrinsic value · Initial and maintenance margin.
 
-**File availability:** The public repository currently contains the assignment screenshots, but not the original Excel ledger. This page therefore documents the exercise rather than offering a workbook download.
+The workbook is available for review alongside the screenshots of the assignment.
 
 [All projects]({{ '/projects/' | relative_url }})
