@@ -12,17 +12,6 @@ classes: wide portfolio-page project-detail
 
 An interview-style manufacturing case built around historical financial statements (2022–2024), forecast assumptions (2025–2027), unlevered free cash flow and a discounted cash flow valuation.
 
-<div class="project-action-row">
-  <a class="work-button work-button-dark" href="{{ '/assets/files/ZA%20-%20Financial%20Model%20Test_UtsavB.xlsx' | relative_url }}">Download Excel model ↗</a>
-  <span class="project-status-note">Workbook supplied as an interview/model-test exercise.</span>
-</div>
-
-## What the model covers
-
-- **Assumptions:** operating drivers and forecast inputs.
-- **Integrated statements:** income statement, balance sheet and cash flow forecasts.
-- **Cash flow build:** unlevered free cash flow and terminal value.
-- **Valuation:** enterprise value, equity value and implied per-share value.
 
 ## Model walkthrough
 
@@ -47,6 +36,11 @@ Discounted cash flow and terminal value used to estimate business value.
 
 **Enterprise value:** US$879m · **Equity value:** US$840m · **Implied value:** US$42/share.
 
-These are outputs from the submitted exercise, not an independently validated valuation. The cash-flow reconciliation and terminal-value sensitivity were flagged for further review; the workbook should be inspected before relying on the result.
+<div class="project-action-row">
+  <a class="work-button work-button-dark" href="{{ '/assets/files/ZA%20-%20Financial%20Model%20Test_UtsavB.xlsx' | relative_url }}">Download Excel model ↗</a>
+  <span class="project-status-note">Workbook supplied as an interview/model-test exercise.</span>
+</div>
+
+These are outputs from the submitted exercise.
 
 [Back to selected work]({{ '/projects/' | relative_url }})
