@@ -7,6 +7,7 @@ classes: wide portfolio-page project-detail
 ---
 
 <p class="eyebrow">FIXED INCOME · EUROBONDS · CORPORATE DEBT</p>
+<img width="639" height="302" alt="image" src="https://github.com/user-attachments/assets/0bfe3b93-a8b0-46fd-9b8b-35e8af6afb32" />
 
 # Indian Eurobond Market Research
 <img width="715" height="469" alt="image" src="https://github.com/user-attachments/assets/fb0152e9-cb78-40d9-ae61-cb607c046c5a" />
