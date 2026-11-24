@@ -50,9 +50,9 @@ classes: wide portfolio-home
         <div class="featured-copy"><h3>Three-statement model & DCF</h3><p>Historical financials, operating assumptions, integrated forecasts, unlevered free cash flow and valuation.</p><span>Inspect the model ↗</span></div>
       </a>
       <a class="featured-card" href="{{ '/projects/waynetech-financial-model/' | relative_url }}">
-        <div class="featured-meta"><span>02 / ACCOUNTING & MODELLING</span><span>EXCEL</span></div>
+        <div class="featured-meta"><span>02 / ACCOUNTING & MODELLING</span><span>SCREENSHOTS</span></div>
         <div class="featured-art ledger-art"><span class="art-kicker">TRANSACTION-TO-REPORTING</span><div class="ledger-rows"><i></i><i></i><i></i><i></i><i></i></div><b>Dr / Cr</b></div>
-        <div class="featured-copy"><h3>Transactions to financial statements</h3><p>Raw transactions, classification, accounting treatment and linked financial statements.</p><span>Inspect the workbook ↗</span></div>
+        <div class="featured-copy"><h3>Transactions to financial statements</h3><p>Project walkthrough of raw transactions, classification, accounting treatment and linked financial statements.</p><span>Inspect the project ↗</span></div>
       </a>
       <a class="featured-card" href="{{ '/projects/nifty50-quantitative-analysis/' | relative_url }}">
         <div class="featured-meta"><span>03 / QUANTITATIVE ANALYSIS</span><span>PYTHON + EXCEL</span></div>
@@ -73,7 +73,7 @@ classes: wide portfolio-home
       <span>Selected work across instruments and markets</span>
     </div>
     <div class="secondary-list">
-      <a href="{{ '/projects/equity-derivatives-ledger/' | relative_url }}"><span>DERIVATIVES · EXCEL</span><strong>Equity derivatives ledger</strong><em>Open workbook ↗</em></a>
+      <a href="{{ '/projects/equity-derivatives-ledger/' | relative_url }}"><span>DERIVATIVES · EXCEL</span><strong>Equity derivatives ledger</strong><em>View assignment ↗</em></a>
       <a href="{{ '/projects/indian-eurobond-analysis/' | relative_url }}"><span>FIXED INCOME · RESEARCH</span><strong>Indian Eurobond market</strong><em>Read report ↗</em></a>
       <a href="{{ '/projects/fx-risk-reversals-research/' | relative_url }}"><span>FX · MACRO RESEARCH</span><strong>FX options as macro risk indicators</strong><em>View research ↗</em></a>
       <a href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}"><span>DATASET · 2018–2025</span><strong>USD/INR currency derivatives dataset</strong><em>Explore dataset ↗</em></a>
