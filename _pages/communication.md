@@ -8,9 +8,9 @@ classes: wide portfolio-page communication-page
 
 <p class="eyebrow">BEYOND THE SPREADSHEET</p>
 
-# Communication & public speaking
+# Communication & Stakeholder Management
 
-Public speaking, hosting, conversations with business leaders and presenting ideas to different audiences.
+Public speaking, handling positions of responsibility, hosting podcasts.
 
 This part of the portfolio will bring together selected recordings, event photographs, podcast appearances and speaking engagements as they are published.
 
