@@ -58,13 +58,19 @@ classes: wide portfolio-page work-hub
       <div class="project-tags"><span>Excel</span><span>Transaction ledger</span><span>Financial statements</span></div>
       <span class="project-card-link">Download workbook and inspect walkthrough ↗</span>
     </a>
-    <a class="project-card project-card-blue" href="{{ '/projects/nifty50-quantitative-analysis/' | relative_url }}">
-      <div class="project-card-meta"><span>PYTHON · DATA VISUALISATION</span><span class="work-state state-live">NOTEBOOK + EXCEL</span></div>
-      <h3>Nifty 50 Quantitative Analysis</h3>
-      <p>Python-based data preparation, quantitative calculations and visualisation, supported by a downloadable Excel workbook.</p>
-      <div class="project-tags"><span>Python</span><span>pandas / NumPy</span><span>Plotly</span></div>
-      <span class="project-card-link">Open analysis and workbook ↗</span>
-    </a>
+    <div class="project-card project-card-blue">
+      <a class="project-card-main-link" href="{{ '/projects/nifty50-quantitative-analysis/' | relative_url }}">
+        <div class="project-card-meta"><span>PYTHON · DATA VISUALISATION</span><span class="work-state state-live">NOTEBOOK + EXCEL</span></div>
+        <h3>Nifty 50 Quantitative Analysis</h3>
+        <p>Python-based data preparation, quantitative calculations and visualisation, supported by a downloadable Excel workbook.</p>
+        <div class="project-tags"><span>Python</span><span>pandas / NumPy</span><span>Plotly</span></div>
+        <span class="project-card-link">View project details ↗</span>
+      </a>
+      <div class="project-card-download-row">
+        <a class="project-card-download" href="{{ '/assets/files/UtsavBhatt-Nifty50_Analysis.xlsx' | relative_url }}">Download Excel workbook ↓</a>
+        <a class="project-card-download project-card-download-secondary" href="https://colab.research.google.com/drive/1jatenuG5Xxj3eGq1PZwABdECtm60Q63C?usp=sharing" target="_blank" rel="noopener">Open Colab ↗</a>
+      </div>
+    </div>
     <a class="project-card project-card-purple" href="{{ '/projects/usd-inr-currency-derivatives/' | relative_url }}">
       <div class="project-card-meta"><span>DATA ENGINEERING · 2018–2025</span><span class="work-state state-live">KAGGLE DATASET</span></div>
       <h3>USD/INR Currency Derivatives Dataset</h3>
