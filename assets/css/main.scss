@@ -318,3 +318,12 @@ body { background: var(--paper); color: var(--ink); }
  .home-approach{grid-template-columns:1fr;gap:1rem}
  .home-approach>a{grid-column:auto}
 }
+
+/* Communication proof gallery */
+.communication-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0 2rem}
+.communication-gallery figure{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fbfaf6}
+.communication-gallery img{display:block;width:100%;height:320px;object-fit:cover;object-position:center}
+.communication-gallery figcaption{display:flex;flex-direction:column;gap:.2rem;padding:.85rem 1rem}
+.communication-gallery figcaption strong{font-size:.88rem;color:var(--ink)}
+.communication-gallery figcaption span{font-size:.75rem;color:var(--muted)}
+@media(max-width:650px){.communication-gallery{grid-template-columns:1fr}.communication-gallery img{height:auto;max-height:360px}}
