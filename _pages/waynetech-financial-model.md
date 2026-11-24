@@ -12,19 +12,10 @@ classes: wide portfolio-page project-detail
 
 A synthetic-company modelling exercise focused on the accounting workflow: transforming a raw transaction ledger into classified, processed data and financial statements. The workbook covers historical statements (FY24–FY26) and forecast years (FY27–FY29).
 
-<div class="project-action-row">
-  <a class="work-button work-button-dark" href="{{ '/assets/files/Financial%20Case%20Study%20-%20WayneTech.xlsx' | relative_url }}">Download WayneTech Excel workbook ↗</a>
-</div>
 
-## What the exercise demonstrates
 
-- Raw transaction data with dates, amounts and transaction descriptions.
-- Classification of transactions into appropriate accounting categories.
-- Translation of processed entries into financial statement line items.
-- Preparation of the income statement, balance sheet and cash flow statement.
-- Extension of the historical base into a forecast period.
 
-## Model walkthrough
+## Model walkthrough. The screenshots below provide a quick visual walkthrough.
 
 ### 1. Raw transactions and source data
 A sample of the transaction register and the structure used to organise the source data.
@@ -44,6 +35,8 @@ The model output is organised into the three primary financial statements.
 <img width="727" height="412" loading="lazy" alt="WayneTech financial statement view" src="https://github.com/user-attachments/assets/e659e693-4cd2-4813-aff7-a5418f4fdfee" />
 <img width="727" height="437" loading="lazy" alt="WayneTech financial statement view" src="https://github.com/user-attachments/assets/c34eca4b-b9a5-46ba-8a5f-fd4696b81296" />
 
-The downloadable workbook contains the underlying transaction and financial-statement work. The screenshots below provide a quick visual walkthrough.
-
+The downloadable workbook contains the underlying transaction and financial-statement work. 
+<div class="project-action-row">
+  <a class="work-button work-button-dark" href="{{ '/assets/files/Financial%20Case%20Study%20-%20WayneTech.xlsx' | relative_url }}">Download WayneTech Excel workbook ↗</a>
+</div>
 [Back to selected work]({{ '/projects/' | relative_url }})
