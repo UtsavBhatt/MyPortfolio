@@ -10,14 +10,18 @@ classes: wide portfolio-page project-detail
 
 # Influx Healthtech — Investment Thesis
 
-Academic investment pitch covering the healthcare CDMO business model, financial performance, margin expansion, peer positioning and growth drivers.
+Primary analysis of a healthcare CDMO business, covering the business model, financial performance, margin expansion, peer positioning and growth drivers.
 
-**Scope:** Historical analysis dated 21 April 2026. Not a current investment recommendation.
+<div class="project-action-row">
+  <a class="work-button work-button-dark" href="{{ '/assets/files/MicroCap-Investment%20Pitch.docx' | relative_url }}">Download investment analysis ↗</a>
+</div>
+
+**Important:** This is a primary analysis and may contain errors, incomplete assumptions or incorrect conclusions. It is shared for research and learning purposes only and is not investment advice or a recommendation to buy or sell any security.
 
 Competitive Landscape and Peer Comparison Visual of Influx Healthtech Ltd.
 
 <img width="721" height="655" alt="image" src="https://github.com/user-attachments/assets/b9e5461b-fa6c-4770-b7b2-224a1018662a" />
 
-**File availability:** The full thesis document is not currently present in the public repository; this page provides a short project summary.
+The downloadable Word document contains the full analysis. The visual below is one component of the original work.
 
 [All projects]({{ '/projects/' | relative_url }})
