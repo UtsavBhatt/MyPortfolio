@@ -43,7 +43,7 @@ classes: wide portfolio-home
         <p>Understanding the financial instruments, accounting principles, market mechanics and frameworks behind the numbers.</p>
         <span class="capability-more">Explore concepts and applications <b>↗</b></span>
       </a>
-      <a class="capability-card capability-communication capability-link" href="{{ '/projects/' | relative_url }}#communication">
+      <a class="capability-card capability-communication capability-link" href="{{ '/projects/communication/' | relative_url }}">
         <div class="capability-top"><span>04</span><span>COMMUNICATE · PRESENT · CONNECT</span></div>
         <h3>Communication &<br>Stakeholder Management</h3>
         <p>Making ideas accessible through presentations, public speaking, hosting and professional conversations.</p>
