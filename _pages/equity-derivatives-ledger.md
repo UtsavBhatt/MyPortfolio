@@ -12,6 +12,11 @@ classes: wide portfolio-page project-detail
 
 Coursework workbook covering long and short option positions, futures mark-to-market, contract-level P&L and margin tracking.
 
+<img width="1078" height="805" alt="image" src="https://github.com/user-attachments/assets/9ed2ac8c-73f6-4e11-bf6d-76d7d959afcb" />
+
+<img width="1466" height="798" alt="image" src="https://github.com/user-attachments/assets/00fe27ff-1ba5-4842-bebf-b0db8e012b3c" />
+
+
 **Concepts:** Option payoffs · Futures settlement · Premium and intrinsic value · Initial and maintenance margin.
 
 [All projects]({{ '/projects/' | relative_url }})
