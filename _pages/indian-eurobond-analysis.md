@@ -7,10 +7,11 @@ classes: wide portfolio-page project-detail
 ---
 
 <p class="eyebrow">FIXED INCOME · EUROBONDS · CORPORATE DEBT</p>
-<img width="639" height="302" alt="image" src="https://github.com/user-attachments/assets/0bfe3b93-a8b0-46fd-9b8b-35e8af6afb32" />
+<img width="643" height="385" alt="image" src="https://github.com/user-attachments/assets/a0d6ca2e-22d6-4a7a-98d5-c4b77c01990b" />
 
 # Indian Eurobond Market Research
-<img width="715" height="469" alt="image" src="https://github.com/user-attachments/assets/fb0152e9-cb78-40d9-ae61-cb607c046c5a" />
+<img width="1113" height="742" alt="image" src="https://github.com/user-attachments/assets/78a2b147-a638-4a36-b325-aadf1f13a901" />
+
 
 Academic research project to understand Eurobond market with an applied analysis of Reliance Industries debt of January 2022 US$4bn issuance.
 
