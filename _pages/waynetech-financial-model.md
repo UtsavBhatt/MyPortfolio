@@ -17,6 +17,7 @@ Overview & Raw Data Sample:
 <img width="483" height="547" alt="image" src="https://github.com/user-attachments/assets/be63ab46-53e1-49e3-b3a1-fee6b4e60fef" />
 
 Categorization and Accounting.
+
 <img width="413" height="794" alt="image" src="https://github.com/user-attachments/assets/645251e5-c54e-4cab-bbfa-7f21a45df6e7" />
 
 **Model components:** Income statement · Balance sheet · Cash flow 
