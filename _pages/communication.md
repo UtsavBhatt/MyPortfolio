@@ -8,16 +8,19 @@ classes: wide portfolio-page communication-page
 
 <p class="eyebrow">BEYOND THE SPREADSHEET</p>
 
-# Communication & Stakeholder Management
+# Communication & Stakeholder Engagement
 
-Public speaking, handling positions of responsibility, hosting podcasts.
+Selected examples of public speaking, live conversations and presenting ideas in front of an audience. This section complements the analytical portfolio with evidence of communication and presentation experience.
 
-This part of the portfolio will bring together selected recordings, event photographs, podcast appearances and speaking engagements as they are published.
-
-<div class="communication-empty">
-  <span class="communication-empty-icon">◖</span>
-  <h2>More to come.</h2>
-  <p>Recordings and event features will be added here as the portfolio develops.</p>
+<div class="communication-gallery">
+  <figure>
+    <img src="{{ '/assets/images/Live%20Podcast%20with%20Dr.%20Nandkishor%20Kagliwal.jpg' | relative_url }}" alt="Live podcast conversation with Dr. Nandkishor Kagliwal" loading="lazy">
+    <figcaption><strong>Live podcast conversation</strong><span>Conversation with Dr. Nandkishor Kagliwal</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/Live%20case%20competition%20pitching.JPG' | relative_url }}" alt="Presenting during a live case competition" loading="lazy">
+    <figcaption><strong>Case competition presentation</strong><span>Live pitching and presentation</span></figcaption>
+  </figure>
 </div>
 
-<a class="work-button work-button-dark" href="{{ '/projects/' | relative_url }}">Back to all work <b>↗</b></a>
+[Back to selected work]({{ '/projects/' | relative_url }})

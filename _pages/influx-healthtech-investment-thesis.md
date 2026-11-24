@@ -14,4 +14,6 @@ Academic investment pitch covering the healthcare CDMO business model, financial
 
 **Scope:** Historical analysis dated 21 April 2026. Not a current investment recommendation.
 
+**File availability:** The full thesis document is not currently present in the public repository; this page provides a short project summary.
+
 [All projects]({{ '/projects/' | relative_url }})
