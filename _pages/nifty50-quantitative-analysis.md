@@ -11,6 +11,7 @@ classes: wide portfolio-page project-detail
 # Nifty 50 Analysis 
 
 Historical stock performance, risk and correlation metrics, an interactive dashboard, Monte Carlo simulation and portfolio value-at-risk.
+
 Ratios for top-pick stocks &  Nifty-50
 <img width="1734" height="517" alt="image" src="https://github.com/user-attachments/assets/f25dff02-caee-4d33-b4aa-ccba3ed3aa77" />
 
