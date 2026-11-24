@@ -31,11 +31,11 @@ classes: wide portfolio-page work-hub
       <span class="project-card-link">Inspect model and outputs ↗</span>
     </a>
     <a class="project-card project-card-green" href="{{ '/projects/waynetech-financial-model/' | relative_url }}">
-      <div class="project-card-meta"><span>SYNTHETIC COMPANY · ACCOUNTING</span><span class="work-state state-live">WORKBOOK</span></div>
+      <div class="project-card-meta"><span>SYNTHETIC COMPANY · ACCOUNTING</span><span class="work-state state-live">SCREENSHOTS</span></div>
       <h3>WayneTech — Transactions to Financial Statements</h3>
       <p>Transaction classification, accounting treatment and conversion of processed data into historical financial statements and forecasts.</p>
       <div class="project-tags"><span>Transaction ledger</span><span>Accounting</span><span>Financial statements</span><span>Excel</span></div>
-      <span class="project-card-link">Inspect workflow and statements ↗</span>
+      <span class="project-card-link">View project walkthrough ↗</span>
     </a>
   </div>
 </section>
@@ -79,7 +79,7 @@ classes: wide portfolio-page work-hub
       <h3>Equity Derivatives Ledger</h3>
       <p>Long and short option positions, futures mark-to-market, contract-level P&amp;L and margin tracking.</p>
       <div class="project-tags"><span>Options</span><span>Futures</span><span>MTM</span><span>Excel</span></div>
-      <span class="project-card-link">View assignment ↗</span>
+      <span class="project-card-link">View assignment overview ↗</span>
     </a>
     <a class="project-card project-card-purple" href="{{ '/projects/fx-risk-reversals-research/' | relative_url }}">
       <div class="project-card-meta"><span>ACADEMIC RESEARCH · USD/INR</span><span class="work-state state-live">RESEARCH PAPER</span></div>
