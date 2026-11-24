@@ -17,7 +17,7 @@ Ratios for top-pick stocks &  Nifty-50
 
 
 <div class="project-action-row">
-  <a class="work-button work-button-dark" href="{{ 'assets/files/UtsavBhatt-Nifty50_Analysis.xlsx'}}">Download full Excel File ↗</a>
+  <a class="work-button work-button-dark" href="{{ '/assets/files/UtsavBhatt-Nifty50_Analysis.xlsx' | relative_url }}'>Download full Excel File ↗</a>
 </div>
 
 Quantitative analysis: In figure Monte Carlo simulations for APPOLPHOSP (Indian Equity)
