@@ -8,9 +8,9 @@ classes: wide portfolio-home
 <div class="home-shell">
   <section class="home-hero home-hero-text">
     <div class="hero-copy">
-      <p class="eyebrow"><span class="eyebrow-dot"></span> FINANCE · RESEARCH · TECHNOLOGY</p>
-      <h1>Curious about<br><span>how money moves.</span></h1>
-      <p class="hero-subtitle">I’m Utsav — an MBA Finance student with a Computer Science background. I explore financial questions through research, analytical tools and clear communication.</p>
+      <p class="eyebrow"><span class="eyebrow-dot"></span> BUSINESS · RESEARCH · TECH</p>
+      <h1>Consistently<br><span>making myself better.</span></h1>
+      <p class="hero-subtitle">I’m Utsav, an MBA Finance student with a Computer Science background. I explore business questions through research, analytical tools and clear communication.</p>
       <div class="hero-actions">
         <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore all work <span>↗</span></a>
         <a class="action-secondary" href="{{ '/about/' | relative_url }}">About me</a>
