@@ -10,7 +10,7 @@ classes: wide portfolio-page communication-page
 
 # Communication & Stakeholder Engagement
 
-Selected examples of public speaking, live conversations and presenting ideas in front of an audience. This section complements the analytical portfolio with evidence of communication and presentation experience.
+Selected examples of public speaking, live conversations, presenting ideas and participating in team activities.
 
 <div class="communication-gallery">
   <figure>
@@ -20,6 +20,18 @@ Selected examples of public speaking, live conversations and presenting ideas in
   <figure>
     <img src="{{ '/assets/images/Live%20case%20competition%20pitching.JPG' | relative_url }}" alt="Presenting during a live case competition" loading="lazy">
     <figcaption><strong>Case competition presentation</strong><span>Live pitching and presentation</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/App_Launch_Anchoring.jpg' | relative_url }}" alt="Anchoring an app launch event" loading="lazy">
+    <figcaption><strong>App launch anchoring</strong><span>Hosting and stage communication</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/Agency%20logo%20pose.jpg' | relative_url }}" alt="Agency logo pose photograph" loading="lazy">
+    <figcaption><strong>Agency representation</strong><span>Brand and team engagement</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/Sports%20Team%20Trophy.jpg' | relative_url }}" alt="Sports team trophy photograph" loading="lazy">
+    <figcaption><strong>Team achievement</strong><span>Sports team and group participation</span></figcaption>
   </figure>
 </div>
 
