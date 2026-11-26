@@ -24,7 +24,7 @@ classes: wide portfolio-home
     </div>
     <div class="capability-grid">
       <a class="capability-card capability-research capability-link" href="{{ '/projects/' | relative_url }}#research-analytics">
-        <div class="capability-top"><span>01</span><span>INVESTIGATE · INTERPRET · EXPLAIN</span></div>
+        <div class="capability-top"><span>01</span><span></span></div>
         <h3>Research &<br>Analytics</h3>
         <p>I examine companies, markets and financial data, then set out the evidence, assumptions and implications behind a conclusion.</p>
         <span class="capability-more">View research and analysis <b>↗</b></span>
