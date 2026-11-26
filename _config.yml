@@ -1,7 +1,7 @@
 title: "Utsav Bhatt"
 email: "utsavbhattt@gmail.com"
 description: >-
-  Finance research, credit analysis, fixed income and data-led financial work.
+  Financial research, corporate credit, fixed income, financial modelling and quantitative analysis.
 url: "https://utsavbhatt.github.io"
 baseurl: "/MyPortfolio"
 repository: "UtsavBhatt/MyPortfolio"
@@ -23,7 +23,7 @@ plugins:
 author:
   name: "Utsav Bhatt"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "MBA Finance | Computer Science"
+  bio: "MBA Finance · Computer Science"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -46,7 +46,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
+      read_time: false
       comments: false
       share: false
   - scope:
@@ -55,12 +55,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 collections:
   projects:
     output: true
