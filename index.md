@@ -6,54 +6,53 @@ classes: wide portfolio-home
 ---
 
 <div class="home-shell">
-  <section class="home-hero home-hero-text">
+  <section class="home-hero">
     <div class="hero-copy">
-      <p class="eyebrow"><span class="eyebrow-dot"></span> BUSINESS · RESEARCH · TECH</p>
-      <h1>Consistently<br><span>making myself better.</span></h1>
-      <p class="hero-subtitle">I’m Utsav, an MBA Finance student with a Computer Science background. I explore business questions through research, analytical tools and clear communication.</p>
+      <p class="eyebrow">FINANCE · RESEARCH · TECHNOLOGY</p>
+      <h1>Curious about<br><span>how money moves.</span></h1>
+      <p class="hero-subtitle">I bring financial analysis and a technical foundation to questions about businesses, markets and risk. My work combines research, modelling and data analysis to help turn complex information into clear, usable decisions.</p>
       <div class="hero-actions">
-        <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore all work <span>↗</span></a>
-        <a class="action-secondary" href="{{ '/about/' | relative_url }}">About me</a>
+        <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore selected work <span>↗</span></a>
+        <a class="action-secondary" href="{{ '/about/' | relative_url }}">A little about me</a>
       </div>
-      <div class="hero-footnote"><span class="status-dot"></span> Building in public · Work updated as it develops</div>
     </div>
   </section>
 
   <section class="home-explore">
     <div class="explore-heading">
-      <div><p class="eyebrow">EXPLORE BY CAPABILITY</p><h2>Four areas. Evidence behind each.</h2></div>
-      <span class="explore-note">Select an area to see the work <span>↓</span></span>
+      <div><p class="eyebrow">WHAT I BRING TO A TEAM</p><h2>Four ways I contribute.</h2></div>
+      <span class="explore-note">Choose an area to see the work <span>↓</span></span>
     </div>
     <div class="capability-grid">
       <a class="capability-card capability-research capability-link" href="{{ '/projects/' | relative_url }}#research-analytics">
         <div class="capability-top"><span>01</span><span>INVESTIGATE · INTERPRET · EXPLAIN</span></div>
         <h3>Research &<br>Analytics</h3>
-        <p>Turning company, market and financial data into structured analysis, useful insights and decision-ready outputs.</p>
-        <span class="capability-more">Explore research work <b>↗</b></span>
+        <p>I examine companies, markets and financial data, then set out the evidence, assumptions and implications behind a conclusion.</p>
+        <span class="capability-more">View research and analysis <b>↗</b></span>
       </a>
       <a class="capability-card capability-technical capability-link" href="{{ '/projects/' | relative_url }}#technical-skills">
-        <div class="capability-top"><span>02</span><span>BUILD · PROCESS · AUTOMATE</span></div>
+        <div class="capability-top"><span>02</span><span>MODEL · ANALYSE · AUTOMATE</span></div>
         <h3>Technical<br>Skills</h3>
-        <p>Applying Excel, Python and analytical tools to build models, process data and make research reproducible.</p>
-        <span class="capability-more">Explore technical work <b>↗</b></span>
+        <p>I use Excel and Python to structure data, build financial models and make analytical work easier to inspect and reproduce.</p>
+        <span class="capability-more">View models and tools <b>↗</b></span>
       </a>
       <a class="capability-card capability-concepts capability-link" href="{{ '/projects/' | relative_url }}#concepts-theory">
         <div class="capability-top"><span>03</span><span>UNDERSTAND · APPLY · CONNECT</span></div>
         <h3>Concepts &<br>Theory Knowledge</h3>
-        <p>Understanding the financial instruments, accounting principles, market mechanics and frameworks behind the numbers.</p>
-        <span class="capability-more">Explore concepts and applications <b>↗</b></span>
+        <p>I connect the mechanics behind financial statements, credit, fixed income, derivatives and machine learning to practical problems.</p>
+        <span class="capability-more">View applied concepts <b>↗</b></span>
       </a>
       <a class="capability-card capability-communication capability-link" href="{{ '/projects/communication/' | relative_url }}">
-        <div class="capability-top"><span>04</span><span>COMMUNICATE · PRESENT · CONNECT</span></div>
+        <div class="capability-top"><span>04</span><span>WRITE · PRESENT · ENGAGE</span></div>
         <h3>Communication &<br>Stakeholder Management</h3>
-        <p>Making ideas accessible through presentations, public speaking, hosting and professional conversations.</p>
-        <span class="capability-more">Explore communication work <b>↗</b></span>
+        <p>I present analysis clearly, adapt to the audience and contribute to conversations that move work forward.</p>
+        <span class="capability-more">View communication work <b>↗</b></span>
       </a>
     </div>
   </section>
 
   <footer class="home-bottom">
-    <div><span class="eyebrow">LET’S CONNECT</span><p>Have a question about a project or an opportunity to discuss?</p></div>
+    <div><span class="eyebrow">START A CONVERSATION</span><p>If the work is relevant to your team, I would be glad to discuss it.</p></div>
     <div class="bottom-links">
       <a href="mailto:utsavbhattt@gmail.com">Email ↗</a>
       <a href="https://www.linkedin.com/in/utsav-bhatt1/" target="_blank" rel="noopener">LinkedIn ↗</a>
