@@ -10,14 +10,13 @@ classes: wide portfolio-home
     <div class="hero-copy">
       <p class="eyebrow">FINANCE · RESEARCH · TECHNOLOGY</p>
       <h1>Curious about<br><span>how money moves.</span></h1>
-      <p class="hero-subtitle">I bring financial analysis and a technical foundation to questions about businesses, markets and risk. My work combines research, modelling and data analysis to help turn complex information into clear, usable decisions.</p>
+      <p class="hero-subtitle">I bring financial analysis and a technical foundation to questions about businesses, markets and risk. My work combines research, modelling and data analysis to turn complex information into clear, usable decisions.</p>
       <div class="hero-actions">
         <a class="action-primary" href="{{ '/projects/' | relative_url }}">Explore selected work <span>↗</span></a>
         <a class="action-secondary" href="{{ '/about/' | relative_url }}">A little about me</a>
       </div>
     </div>
   </section>
-
   <section class="home-explore">
     <div class="explore-heading">
       <div><p class="eyebrow">WHAT I BRING TO A TEAM</p><h2>Four ways I contribute.</h2></div>
@@ -50,7 +49,6 @@ classes: wide portfolio-home
       </a>
     </div>
   </section>
-
   <footer class="home-bottom">
     <div><span class="eyebrow">START A CONVERSATION</span><p>If the work is relevant to your team, I would be glad to discuss it.</p></div>
     <div class="bottom-links">
