@@ -9,7 +9,7 @@ classes: wide portfolio-home
   <section class="home-hero">
     <div class="hero-copy">
       <p class="eyebrow">Work in progress, learning...</p>
-      <h2>Better Incentives, equals<br><span>Better outcomes.</span></h2>
+      <h1>Better Incentives, equals<span>Better outcomes.</span></h1>
       <p class="hero-subtitle">I bring financial analysis and a technical foundation to questions about businesses, markets and risk. My work combines research, modelling and data analysis to turn complex information into clear, usable decisions.</p>
       <div class="hero-actions">
         <a class="action-primary" href="{{ '/projects/' | relative_url }}">Have a look <span>↗</span></a>
